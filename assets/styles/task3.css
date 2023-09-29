@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url('../images/img_girl.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+     background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.crazy-card {
+    background-color: white;
+    width: 350px;
+    margin: 1.5rem;
+    padding: 60px 20px 40px 20px;
+}
+
+.crazy-card h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+} 
+
+.crazy-card p {
+    padding-top: 3rem;
+}
